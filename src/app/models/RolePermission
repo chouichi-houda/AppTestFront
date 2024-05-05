@@ -1,0 +1,8 @@
+import { PermissionEnum } from "./PermissionEnum.enum"
+export class RolePermission {
+    id : number;
+
+    roleId : number;
+
+    permission : PermissionEnum;
+}
